@@ -46,8 +46,8 @@ RAGpedia/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/rag-plugin.git
-cd rag-plugin
+git clone https://github.com/Sohamshah03/RAGpedia.git
+cd RAGpedia
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
