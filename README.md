@@ -136,7 +136,7 @@ python main.py
 - Uses `unstructured` to extract rich elements: text, images, tables, code
 - Chunks documents using a custom `StructuredChunker`
 - Stores embeddings per session in **ChromaDB**
-- Leverages **OpenRouter** (ChatGPT, Claude, etc.) to generate responses
+- Leverages **OpenRouter** (Mistral 7B) to generate responses
 - Returns clean **Markdown** for flexible rendering
 
 ---
@@ -144,7 +144,7 @@ python main.py
 ## 🧩 Flexibility
 
 - Frontend-agnostic: use with any React/Vue dashboard, bot, or mobile app
-- Returns rich Markdown responses, including image and table links
+- Returns rich Markdown responses, including images, tables and code snippets
 - Can be used as a plugin in enterprise/internal tooling
 
 ---
